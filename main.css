@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura ---> */
+    font-family: Roboto, sans-serif;
+    background-color: rgb(222, 216, 243);
+}
+
+header{
+    padding: 40px 0;
+    color:rgb(13, 8, 8);
+    font-style: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form, input{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border-color:black;
+}
+
+button{
+    background-color: rgb(38, 183, 38);
+    border-color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor:pointer;
+    padding: 10px;
+}
+
+ul li {
+    text-align: center;
+    padding: 10px;
+    color: black;
+    cursor:pointer;
+}
+
